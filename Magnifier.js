@@ -289,6 +289,7 @@ var Magnifier = function (evt, options) {
             }
         },
         onThumbEnter = function () {
+debugger;
             curData = data[curIdx];
             curLens = $('#' + curIdx + '-lens');
 
@@ -316,6 +317,7 @@ var Magnifier = function (evt, options) {
             }
         },
         onThumbLeave = function () {
+debugger;
             if (curData.status > 0) {
                 var handler = curData.onthumbleave;
 
